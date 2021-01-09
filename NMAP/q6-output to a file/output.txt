@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Sun Nov 15 18:58:33 2020 as: nmap -&#45;top-ports 20 -oX output.txt 192.168.1.6 -->
+<nmaprun scanner="nmap" args="nmap -&#45;top-ports 20 -oX output.txt 192.168.1.6" start="1605446913" startstr="Sun Nov 15 18:58:33 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="20" services="21-23,25,53,80,110-111,135,139,143,443,445,993,995,1723,3306,3389,5900,8080"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1605446913" endtime="1605446913"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.6" addrtype="ipv4"/>
+<hostnames>
+<hostname name="hp-HP-Pavilion-Laptop-15-cc1xx" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="23"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="25"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="rpcbind" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="1723"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="pptp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3306"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="mysql" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3389"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5900"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="vnc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+</ports>
+<times srtt="49" rttvar="46" to="100000"/>
+</host>
+<runstats><finished time="1605446913" timestr="Sun Nov 15 18:58:33 2020" elapsed="0.04" summary="Nmap done at Sun Nov 15 18:58:33 2020; 1 IP address (1 host up) scanned in 0.04 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
